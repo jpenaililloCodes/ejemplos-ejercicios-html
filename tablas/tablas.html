@@ -8,13 +8,13 @@
 </head>
 <body>
     <!--Necesito redirigir a index.html-->
-    <a href="">Home</a>
+    <a href="../index.html">Home</a>
 
     <!--Esto es un titulo siguiendo el mismo tamaño que el titulo de index.html-->
-    Ejemplos de tablas
+    <h3> Ejemplos de tablas</h3>
     
     <!--Define un border y un ancho de 300 a la tabla-->
-    <table>
+    <table width="300" border="1" cellspacing="0" cellpadding="20">
         <tr>
             <th>Nombre</th>
             <th>Pais</th>
@@ -32,10 +32,39 @@
             <td>Panama</td>
         </tr>
         <tr>
-            <td>2022</td> <!--Configura la celda para que valga por 2-->
+            <td colspan="2">2022</td> <!--Configura la celda para que valga por 2-->
         </tr>
     </table>
+<br>
+    <table width="300" border="2" >
+        <tr> 
+            <th colspan="3"> Tabla de posiciones</th>
+        </tr>
+        <tr>
+            <th>Bandera</th>
+            <th>País</th>
+            <th>Puntos</th>
+        </tr>
+        <tr>
+            <td > <img src="../img/chile.svg" alt="" width="50"> </td>
+            <td>Chile</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td> <img src="../img/brazil.png" alt="" width="50"> </td>
+            <td>Brazil</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td> <img src="../img/peru.png" alt="" width="50"> </td>
+            <td>Peru</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">Qatar 2022</td>
+        </tr>
 
+    </table>
     <!--
         Construye la siguiente tabla
         -------------------------------------

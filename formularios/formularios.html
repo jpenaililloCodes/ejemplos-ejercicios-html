@@ -10,26 +10,35 @@
       <!--Necesito redirigir a index.html-->
       <a href="">Home</a>
 
-     <table border="1">
+    <form action="">
+      <table border="1">
         <tr>
-            <th>Acceso</th>
-        </tr>
-        <tr>
-            <td>aqui va un label indicando el rut</td>
-            <td>aqui va un campo de texto </td>
-        </tr>
-        <tr>
-            <td>aqui va un label indicando la clave</td>
-            <td>aqui va un campo de texto de tipo password</td>
+            <th colspan="2">Acceso</th>
         </tr>
         <tr>
             <td>
-                aqui va un boton
+                <label> Ingrese Rut </label> 
+            </td>
+            <td>
+                <input type="text" name="rut" > 
+            </td>
+        </tr>
+        <tr>
+            <td>
+               <label>Clave</label>
+            </td>
+            <td>
+                <input type="password" name="clave">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button>Acceder</button>
             </td>
         </tr>
 
      </table>
-
+    </form>
 
 
 </body>
